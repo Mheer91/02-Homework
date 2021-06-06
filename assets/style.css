@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(240, 235, 216);
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(116, 140, 171);
+    justify-content: flex-start;
+}
+
+header {
+    position: fixed;
+    color: rgb(240, 235, 216);
+    background-color: rgb(29, 45, 68);
+    width: 100%;
+    line-height: 20px;
+    box-shadow: 10px 5px 20px rgb(62, 92, 118);
+}
+
+header h1 {
+    float: left;
+    text-align: center;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav a {
+    float: right;
+    color: rgb(240, 235, 216);
+    font-weight: bold;
+    text-align: center;
+    padding: 21px 8px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(62, 92, 118);
+}
+
+main { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 70px;
+}
+
+/* figure {
+   display: flex;
+   flex-direction: row;
+}
+
+.imagebar {
+    width
+} */
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 15px;
+}
