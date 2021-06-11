@@ -4,9 +4,9 @@ body {
     color: rgb(240, 235, 216);
     margin: 0;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     background-color: rgb(116, 140, 171);
-    justify-content: flex-start;
+    justify-content: flex-left;
 }
 
 header {
@@ -38,27 +38,24 @@ nav a {
 
 nav a:hover {
     background-color: rgb(62, 92, 118);
+    box-shadow: 2px 2px 15px black;
 }
 
 main { 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 70px;
+    /* display: flex;
+    flex-direction: row; */
+    margin-top: 100px;
 }
 
-/* figure {
-   display: flex;
-   flex-direction: row;
+.aboutme {
+    text-align: center;
 }
-
-.imagebar {
-    width
-} */
-
 .projects {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding: 15px;
 }
+
+/* aside {
+    display: flex;
+    flex-direction: column;
+   
+} */
