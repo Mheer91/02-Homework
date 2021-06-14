@@ -4,9 +4,9 @@ body {
     color: rgb(240, 235, 216);
     margin: 0;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
     background-color: rgb(116, 140, 171);
-    justify-content: flex-left;
+    justify-content: center;
 }
 
 header {
@@ -42,20 +42,42 @@ nav a:hover {
 }
 
 main { 
-    /* display: flex;
-    flex-direction: row; */
     margin-top: 100px;
 }
 
 .aboutme {
-    text-align: center;
+    text-align: left;
 }
 .projects {
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
-/* aside {
+.projectcard {
     display: flex;
-    flex-direction: column;
-   
-} */
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: rgb(29, 45, 68);
+    color:rgb(240, 235, 216);
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    padding: 0;
+    margin-top: 20px;
+    box-shadow: 2px 2px 10px rgb(29, 45, 68);   
+    
+}
+
+.projectcard:hover {
+    width: 500px;
+    height: 500px;
+    box-shadow: 10px 10px 10px rgb(29, 45, 68);
+    cursor: pointer;
+}
+
+.projectcard:active {
+
+}
