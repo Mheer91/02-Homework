@@ -1,21 +1,28 @@
+:root {
+    --offwhite: rgb(240, 235, 216);
+    --deepdarkblue: rgb(29, 45, 68);
+    --darkblue: rgb(62, 92, 118);
+    --lightblue:  rgb(116, 140, 171);
+}
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(240, 235, 216);
+    color: var(--offwhite);
     margin: 0;
     display: flex;
     flex-flow: row wrap;
     width: 100%;
-    background-color: rgb(116, 140, 171);
+    background-color: var(--lightblue);
     justify-content: center;
 }
 
 header {
-    color: rgb(240, 235, 216);
-    background-color: rgb(29, 45, 68);
+    color: var(--offwhite);
+    background-color: var(--deepdarkblue);
     width: 100%;
     line-height: 20px;
-    box-shadow: 10px 5px 20px rgb(62, 92, 118);
+    box-shadow: 10px 5px 20px var(--darkblue);
 }
 
 header h1 {
@@ -29,7 +36,7 @@ nav {
 
 nav a {
     float: right;
-    color: rgb(240, 235, 216);
+    color: var(--offwhite);
     font-weight: bold;
     padding: 21px 8px;
     text-decoration: none;
@@ -37,7 +44,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgb(62, 92, 118);
+    background-color: var(--darkblue);
     box-shadow: 2px 2px 15px black;
 }
 
@@ -45,7 +52,7 @@ figure img {
     border: solid;
     border-color: black;
     border-radius: 20px;
-    box-shadow: 2px 2px 10px rgb(29, 45, 68);
+    box-shadow: 2px 2px 10px var(--deepdarkblue);
 }
 
 .aboutme {
@@ -65,14 +72,14 @@ figure img {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    background-color: rgb(29, 45, 68);
-    color:rgb(240, 235, 216);
+    background-color: var(--deepdarkblue);
+    color:var(--offwhite);
     border-style: solid;
     border-color: black;
     border-radius: 10px;
     width: 50vh;
     height: 50vh;
-    box-shadow: 2px 2px 10px rgb(29, 45, 68); 
+    box-shadow: 2px 2px 10px var(--deepdarkblue); 
     margin: 20px;
 }
 
@@ -82,7 +89,7 @@ figure img {
 }
 
 .projectcard:hover {
-    box-shadow: 10px 10px 10px rgb(29, 45, 68);
+    box-shadow: 10px 10px 10px var(--deepdarkblue);
     cursor: pointer;
 }
 
