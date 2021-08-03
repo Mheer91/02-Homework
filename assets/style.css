@@ -70,7 +70,8 @@ figure img {
 
 .projectcard {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column;
+    align-items: center;
     justify-content: center;
     background-color: var(--deepdarkblue);
     color:var(--offwhite);
@@ -85,6 +86,13 @@ figure img {
 
 .projectcard img {
     height:75%;
+    width: 90%;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    height: 90%;
     width: 90%;
 }
 
