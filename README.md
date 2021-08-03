@@ -9,4 +9,5 @@ This assignment was for us to make a personal portofolio that could house all of
 Deployed URL: https://mheer91.github.io/My-Portfolio/
 
 
-Screenshot: ![portfolio](https://user-images.githubusercontent.com/80427770/122283168-e1eef800-ceb1-11eb-9fae-f8abc02ff062.jpg)
+Screenshot: ![UpdatedPortfolioSS](https://user-images.githubusercontent.com/80427770/127941312-e3b1c8fa-8703-4e40-a08b-0aac9e2c99a3.jpg)
+
